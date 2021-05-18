@@ -1,5 +1,6 @@
 package com.sanvalero.cuartapracticaaccesodatosmayo.service;
 
+import com.sanvalero.cuartapracticaaccesodatosmayo.domain.Ingredient;
 import com.sanvalero.cuartapracticaaccesodatosmayo.domain.Restaurant;
 import com.sanvalero.cuartapracticaaccesodatosmayo.domain.dto.RestaurantDTO;
 
@@ -15,6 +16,7 @@ public interface RestaurantService {
 
     Set<Restaurant> findAll();
     Optional<Restaurant> findById(long id);
+    Set<Restaurant> getRestaurantsByPriceAndVegan(float price, boolean vegan);
 
     Restaurant addRestaurant(Restaurant restaurant);
     Restaurant modifyRestaurant(long id, RestaurantDTO restaurantDTO);

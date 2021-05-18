@@ -1,5 +1,6 @@
 package com.sanvalero.cuartapracticaaccesodatosmayo.controller;
 
+import com.sanvalero.cuartapracticaaccesodatosmayo.domain.Ingredient;
 import com.sanvalero.cuartapracticaaccesodatosmayo.domain.Restaurant;
 import com.sanvalero.cuartapracticaaccesodatosmayo.domain.dto.RestaurantDTO;
 import com.sanvalero.cuartapracticaaccesodatosmayo.exception.RestaurantNotFoundException;
@@ -75,6 +76,27 @@ public class RestaurantController {
         logger.info("End getRestaurantById");
 
         return new ResponseEntity<>(restaurant, HttpStatus.OK);
+    }
+
+    /*--------------------------------FIND_RESTAURANTS_BY_PLATE_PRICE_AND_VEGAN----------------------------------*/
+    @Operation(summary = "Get restaurants by plate price and vegan")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Restaurants list exist",
+                    content = @Content(schema = @Schema(implementation = Restaurant.class))),
+            @ApiResponse(responseCode = "404", description = "Restaurants list doesn't exist",
+                    content = @Content(schema = @Schema(implementation = Response.class)))
+    })
+    @GetMapping(value = "/restaurants/restaurants/price-vegan", produces = "application/json")
+    public ResponseEntity<Set<Restaurant>> getRestaurantsByPriceAndVegan(@RequestParam (value = "price", defaultValue = "") float price,
+                                                                         @RequestParam (value = "vegan", defaultValue = "") boolean vegan) {
+
+        logger.info("Init getRestaurantsByPriceAndVegan");
+
+        Set<Restaurant> restaurants = restaurantService.getRestaurantsByPriceAndVegan(price, vegan);
+
+        logger.info("End getRestaurantsByPriceAndVegan");
+
+        return new ResponseEntity<Set<Restaurant>>(restaurants, HttpStatus.OK);
     }
 
     /*--------------------------------ADD----------------------------------*/

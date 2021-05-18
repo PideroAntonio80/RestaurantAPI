@@ -38,6 +38,11 @@ public class IngredientServiceImp implements IngredientService{
     }
 
     @Override
+    public Set<Ingredient> getIngredientsByPriceAndVegan(float price, boolean vegan) {
+        return ingredientRepository.getIngredientsByPriceAndVegan(price, vegan);
+    }
+
+    @Override
     public Ingredient addIngredientToPlate(long id, IngredientDTO ingredientDTO) {
         Ingredient newIngredient = new Ingredient();
         setIngredient(newIngredient, ingredientDTO);

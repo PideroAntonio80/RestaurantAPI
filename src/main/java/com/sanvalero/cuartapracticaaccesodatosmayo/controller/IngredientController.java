@@ -14,6 +14,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.repository.query.Param;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -75,6 +76,27 @@ public class IngredientController {
         logger.info("End getIngredientById");
 
         return new ResponseEntity<>(ingredient, HttpStatus.OK);
+    }
+
+    /*--------------------------------FIND_INGREDIENT_BY_PLATE_PRICE_AND_VEGAN----------------------------------*/
+    @Operation(summary = "Get ingredient by plate price and vegan")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Ingredients list exist",
+                    content = @Content(schema = @Schema(implementation = Ingredient.class))),
+            @ApiResponse(responseCode = "404", description = "Ingredients list doesn't exist",
+                    content = @Content(schema = @Schema(implementation = Response.class)))
+    })
+    @GetMapping(value = "/restaurants/ingredients/plate", produces = "application/json")
+    public ResponseEntity<Set<Ingredient>> getIngredientsByPriceAndVegan(@RequestParam (value = "price", defaultValue = "") float price,
+                                                                         @RequestParam (value = "vegan", defaultValue = "") boolean vegan) {
+
+        logger.info("Init getIngredientsByPriceAndVegan");
+
+        Set<Ingredient> ingredients = ingredientService.getIngredientsByPriceAndVegan(price, vegan);
+
+        logger.info("End getIngredientsByPriceAndVegan");
+
+        return new ResponseEntity<Set<Ingredient>>(ingredients, HttpStatus.OK);
     }
 
     /*--------------------------------ADD----------------------------------*/

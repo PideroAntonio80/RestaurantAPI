@@ -1,5 +1,6 @@
 package com.sanvalero.cuartapracticaaccesodatosmayo.service;
 
+import com.sanvalero.cuartapracticaaccesodatosmayo.domain.Ingredient;
 import com.sanvalero.cuartapracticaaccesodatosmayo.domain.Restaurant;
 import com.sanvalero.cuartapracticaaccesodatosmayo.domain.dto.RestaurantDTO;
 import com.sanvalero.cuartapracticaaccesodatosmayo.exception.RestaurantNotFoundException;
@@ -29,6 +30,11 @@ public class RestaurantServiceImp implements RestaurantService{
     @Override
     public Optional<Restaurant> findById(long id) {
         return restaurantRepository.findById(id);
+    }
+
+    @Override
+    public Set<Restaurant> getRestaurantsByPriceAndVegan(float price, boolean vegan) {
+        return restaurantRepository.getRestaurantsByPriceAndVegan(price, vegan);
     }
 
     @Override

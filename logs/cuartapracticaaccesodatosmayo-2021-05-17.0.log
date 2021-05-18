@@ -1,0 +1,245 @@
+2021-05-17 19:21:46,962 INFO org.springframework.boot.StartupInfoLogger [main] Starting CuartaPracticaAccesoDatosMayoApplication using Java 11.0.8 on DESKTOP-SPU9LGP with PID 8336 (C:\Users\shady\Documents\Proyectos_IntelliJ\CuartaPracticaAccesoDatosMayo\target\classes started by shady in C:\Users\shady\Documents\Proyectos_IntelliJ\CuartaPracticaAccesoDatosMayo)
+2021-05-17 19:21:46,964 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-17 19:21:47,581 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-17 19:21:47,640 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 51 ms. Found 3 JPA repository interfaces.
+2021-05-17 19:21:48,171 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-17 19:21:48,182 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-17 19:21:48,183 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-17 19:21:48,184 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-17 19:21:48,283 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-17 19:21:48,283 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1283 ms
+2021-05-17 19:21:48,446 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-17 19:21:48,509 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-17 19:21:48,620 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-17 19:21:48,709 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-17 19:21:48,859 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-17 19:21:48,875 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-05-17 19:21:49,492 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-17 19:21:49,499 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-17 19:21:49,785 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-17 19:21:49,841 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17 19:21:50,199 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-05-17 19:21:50,342 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-17 19:21:50,365 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-17 19:21:50,372 INFO org.springframework.boot.StartupInfoLogger [main] Started CuartaPracticaAccesoDatosMayoApplication in 3.823 seconds (JVM running for 4.191)
+2021-05-17 19:24:32,169 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17 19:24:32,171 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-05-17 19:24:32,173 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-05-17 19:24:32,646 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8080-exec-3] Init duration for springdoc-openapi is: 267 ms
+2021-05-17 19:25:18,265 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.RestaurantController [http-nio-8080-exec-5] Init addRestaurant
+2021-05-17 19:25:18,330 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.RestaurantController [http-nio-8080-exec-5] End addRestaurant
+2021-05-17 19:26:35,184 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.RestaurantController [http-nio-8080-exec-10] Init addRestaurant
+2021-05-17 19:26:35,192 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.RestaurantController [http-nio-8080-exec-10] End addRestaurant
+2021-05-17 19:27:03,214 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.RestaurantController [http-nio-8080-exec-1] Init addRestaurant
+2021-05-17 19:27:03,222 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.RestaurantController [http-nio-8080-exec-1] End addRestaurant
+2021-05-17 19:27:34,574 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.RestaurantController [http-nio-8080-exec-2] Init addRestaurant
+2021-05-17 19:27:34,584 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.RestaurantController [http-nio-8080-exec-2] End addRestaurant
+2021-05-17 20:46:03,297 INFO org.springframework.boot.StartupInfoLogger [main] Starting CuartaPracticaAccesoDatosMayoApplication using Java 11.0.8 on DESKTOP-SPU9LGP with PID 17116 (C:\Users\shady\Documents\Proyectos_IntelliJ\CuartaPracticaAccesoDatosMayo\target\classes started by shady in C:\Users\shady\Documents\Proyectos_IntelliJ\CuartaPracticaAccesoDatosMayo)
+2021-05-17 20:46:03,299 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-17 20:46:03,827 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-17 20:46:03,873 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 39 ms. Found 3 JPA repository interfaces.
+2021-05-17 20:46:04,333 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-17 20:46:04,341 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-17 20:46:04,342 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-17 20:46:04,342 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-17 20:46:04,421 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-17 20:46:04,422 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1088 ms
+2021-05-17 20:46:04,542 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-17 20:46:04,586 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-17 20:46:04,662 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-17 20:46:04,726 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-17 20:46:04,844 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-17 20:46:04,856 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-05-17 20:46:05,285 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-17 20:46:05,292 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-17 20:46:05,548 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-17 20:46:05,598 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17 20:46:05,901 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-05-17 20:46:06,022 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-17 20:46:06,036 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-17 20:46:06,043 INFO org.springframework.boot.StartupInfoLogger [main] Started CuartaPracticaAccesoDatosMayoApplication in 3.086 seconds (JVM running for 3.41)
+2021-05-17 20:46:28,953 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17 20:46:28,954 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-05-17 20:46:28,956 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-05-17 20:46:29,614 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8080-exec-4] Init duration for springdoc-openapi is: 436 ms
+2021-05-17 20:47:26,279 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-5] Init addIngredient
+2021-05-17 20:47:26,372 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-5] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.sanvalero.cuartapracticaaccesodatosmayo.exception.PlateNotFoundException: Plate not found: 1] with root cause
+com.sanvalero.cuartapracticaaccesodatosmayo.exception.PlateNotFoundException: Plate not found: 1
+	at com.sanvalero.cuartapracticaaccesodatosmayo.service.IngredientServiceImp.lambda$addIngredientToPlate$0(IngredientServiceImp.java:46)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408)
+	at com.sanvalero.cuartapracticaaccesodatosmayo.service.IngredientServiceImp.addIngredientToPlate(IngredientServiceImp.java:46)
+	at com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController.addIngredient(IngredientController.java:93)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-05-17 20:48:35,111 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.PlateController [http-nio-8080-exec-9] Init addPlate
+2021-05-17 20:48:35,147 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.PlateController [http-nio-8080-exec-9] End addPlate
+2021-05-17 20:48:58,617 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.PlateController [http-nio-8080-exec-10] Init addPlate
+2021-05-17 20:48:58,628 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.PlateController [http-nio-8080-exec-10] End addPlate
+2021-05-17 20:49:18,010 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.PlateController [http-nio-8080-exec-1] Init addPlate
+2021-05-17 20:49:18,020 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.PlateController [http-nio-8080-exec-1] End addPlate
+2021-05-17 20:49:39,504 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.PlateController [http-nio-8080-exec-3] Init addPlate
+2021-05-17 20:49:39,514 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.PlateController [http-nio-8080-exec-3] End addPlate
+2021-05-17 20:49:55,570 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2021-05-17 20:49:59,125 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.PlateController [http-nio-8080-exec-2] Init getPlates
+2021-05-17 20:49:59,266 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.PlateController [http-nio-8080-exec-2] End getPlates
+2021-05-17 20:50:09,777 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.PlateController [http-nio-8080-exec-5] Init getPlateById
+2021-05-17 20:50:09,780 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.PlateController [http-nio-8080-exec-5] End getPlateById
+2021-05-17 20:50:43,229 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.PlateController [http-nio-8080-exec-6] Init modifyPlate
+2021-05-17 20:50:43,235 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.PlateController [http-nio-8080-exec-6] End modifyPlate
+2021-05-17 20:50:56,440 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.PlateController [http-nio-8080-exec-7] Init getPlates
+2021-05-17 20:50:56,452 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.PlateController [http-nio-8080-exec-7] End getPlates
+2021-05-17 20:51:12,300 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.PlateController [http-nio-8080-exec-8] Init deletePlate
+2021-05-17 20:51:12,331 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.PlateController [http-nio-8080-exec-8] End deletePlate
+2021-05-17 20:51:19,302 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.PlateController [http-nio-8080-exec-9] Init getPlates
+2021-05-17 20:51:19,307 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.PlateController [http-nio-8080-exec-9] End getPlates
+2021-05-17 20:55:56,047 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-3] Init addIngredient
+2021-05-17 20:55:56,064 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-3] End addIngredient
+2021-05-17 20:56:47,883 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-4] Init getIngredients
+2021-05-17 20:56:47,893 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-4] End getIngredients
+2021-05-17 20:58:20,172 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-6] Init addIngredient
+2021-05-17 20:58:20,188 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-6] End addIngredient
+2021-05-17 20:58:39,927 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-7] Init addIngredient
+2021-05-17 20:58:39,943 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-7] End addIngredient
+2021-05-17 20:58:49,161 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-8] Init addIngredient
+2021-05-17 20:58:49,179 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-8] End addIngredient
+2021-05-17 20:59:01,858 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-9] Init addIngredient
+2021-05-17 20:59:01,873 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-9] End addIngredient
+2021-05-17 20:59:09,664 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-10] Init addIngredient
+2021-05-17 20:59:09,678 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-10] End addIngredient
+2021-05-17 20:59:29,562 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-1] Init addIngredient
+2021-05-17 20:59:29,568 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.sanvalero.cuartapracticaaccesodatosmayo.exception.PlateNotFoundException: Plate not found: 4] with root cause
+com.sanvalero.cuartapracticaaccesodatosmayo.exception.PlateNotFoundException: Plate not found: 4
+	at com.sanvalero.cuartapracticaaccesodatosmayo.service.IngredientServiceImp.lambda$addIngredientToPlate$0(IngredientServiceImp.java:46)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408)
+	at com.sanvalero.cuartapracticaaccesodatosmayo.service.IngredientServiceImp.addIngredientToPlate(IngredientServiceImp.java:46)
+	at com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController.addIngredient(IngredientController.java:93)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-05-17 21:00:00,918 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-4] Init addIngredient
+2021-05-17 21:00:00,931 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-4] End addIngredient
+2021-05-17 21:00:15,266 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-2] Init getIngredients
+2021-05-17 21:00:15,273 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-2] End getIngredients
+2021-05-17 21:00:23,527 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-5] Init getIngredientById
+2021-05-17 21:00:23,529 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-5] End getIngredientById
+2021-05-17 21:00:51,296 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-6] Init modifyIngredient
+2021-05-17 21:00:51,302 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-6] End modifyIngredient
+2021-05-17 21:01:20,621 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-7] Init deleteIngredient
+2021-05-17 21:01:20,627 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-7] End deleteIngredient
+2021-05-17 21:01:33,117 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-8] Init deleteIngredient
+2021-05-17 21:01:33,123 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.IngredientController [http-nio-8080-exec-8] End deleteIngredient
+2021-05-17 21:01:54,641 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.RestaurantController [http-nio-8080-exec-9] Init getRestaurants
+2021-05-17 21:01:54,645 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.RestaurantController [http-nio-8080-exec-9] End getRestaurants
+2021-05-17 21:02:42,312 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.RestaurantController [http-nio-8080-exec-10] Init getRestaurantById
+2021-05-17 21:02:42,314 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.RestaurantController [http-nio-8080-exec-10] End getRestaurantById
+2021-05-17 21:03:39,399 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.RestaurantController [http-nio-8080-exec-1] Init addRestaurant
+2021-05-17 21:03:39,406 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.RestaurantController [http-nio-8080-exec-1] End addRestaurant
+2021-05-17 21:04:29,079 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.RestaurantController [http-nio-8080-exec-3] Init modifyRestaurant
+2021-05-17 21:04:29,083 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.RestaurantController [http-nio-8080-exec-3] End modifyRestaurant
+2021-05-17 21:04:47,421 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.RestaurantController [http-nio-8080-exec-4] Init deleteRestaurant
+2021-05-17 21:04:47,439 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.RestaurantController [http-nio-8080-exec-4] End deleteRestaurant
+2021-05-17 21:05:00,315 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.RestaurantController [http-nio-8080-exec-2] Init getRestaurants
+2021-05-17 21:05:00,318 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.RestaurantController [http-nio-8080-exec-2] End getRestaurants
+2021-05-17 21:05:21,467 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.PlateController [http-nio-8080-exec-5] Init getPlates
+2021-05-17 21:05:21,471 INFO com.sanvalero.cuartapracticaaccesodatosmayo.controller.PlateController [http-nio-8080-exec-5] End getPlates

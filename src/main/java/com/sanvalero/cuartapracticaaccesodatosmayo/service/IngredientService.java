@@ -15,6 +15,7 @@ public interface IngredientService {
 
     Set<Ingredient> findAll();
     Optional<Ingredient> findById(long id);
+    Set<Ingredient> getIngredientsByPriceAndVegan(float price, boolean vegan);
 
     Ingredient addIngredientToPlate(long id, IngredientDTO ingredientDTO);
     Ingredient modifyIngredient(long id, IngredientDTO ingredientDTO);

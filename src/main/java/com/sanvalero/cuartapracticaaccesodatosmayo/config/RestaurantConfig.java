@@ -24,7 +24,7 @@ public class RestaurantConfig {
                         .contact(new Contact()
                                 .name("Pedro Oros")
                                 .email("shadycreek@hotmail.com")
-                                .url("https://github.com/PideroAntonio80/RestaurantAPI.git"))
+                                .url(" https://github.com/PideroAntonio80/RestaurantAPI.git"))
                         .version("1.0"));
     }
 }
